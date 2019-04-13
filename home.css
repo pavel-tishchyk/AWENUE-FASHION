@@ -194,7 +194,7 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 0px 0px 52px 8px;
+    padding: 60px 0px;
 }
 
 .item-type {
@@ -213,6 +213,7 @@ header {
     justify-content: space-between;
     align-items: flex-end;
     width: 100%;
+    padding-bottom: 60px;
 }
 
 .items-column:first-child {
