@@ -367,63 +367,69 @@ header {
     background: #00c8c8;
 }
 
+.lookbook-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 
+.lookbooks {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
 
+.lookbook {
+    position: relative;
+}
 
+.lookbook-image {
+    width: 100%;
+}
 
+.lookbook-info {
+    position: absolute;
+    top: 10%;
+    right: 10%;
+    max-width: 300px;
+    text-align: end;
+}
 
+.lookbook-sex {
+    font-size: 48px;
+    font-weight: bold;
+    color: #575153;
+    text-transform: uppercase;
+}
 
+.lookbook-name {
+    font-size: 48px;
+    color: #575153;
+    text-transform: uppercase;
+}
 
+.lookbook-text {
+    padding: 20px 0px;
+    color: #575153;
+}
 
+.lookbook-button {
+    border: 2px solid #737373;
+    background: transparent;
+    padding: 20px 30px;
+    font-size: 16px;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: #737373;
+    outline: none;
+}
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+.lookbook-button:hover {
+    border-color: #00c8c8;
+    background: #00c8c8;
+    color: #ffffff;
+}
 
 .information-wrapper {
     display: flex;
