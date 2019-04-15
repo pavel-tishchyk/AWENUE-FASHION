@@ -255,6 +255,7 @@ header {
     justify-content: center;
     align-items: flex-start;
     width: 100%;
+    margin-bottom: 120px;
 }
 
 .location-maps {
@@ -265,9 +266,14 @@ header {
 }
 
 .location-map {
+    display: none;
     width: 100%; 
     height: 100%;
     border: none;
+}
+
+.location-map-active {
+    display: block;
 }
 
 .locations-info {
@@ -277,11 +283,15 @@ header {
 }
 
 .location-info {
-    display: flex;
+    display: none;
     flex-direction: column;
     justify-content: center;
     align-items: flex-start;
     margin: 40px;
+}
+
+.location-info-active {
+    display: flex;
 }
 
 .location-list {
